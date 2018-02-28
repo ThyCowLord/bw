@@ -11,10 +11,7 @@ then
 fi
 if [ $rRw == '-w' ]
 then
+ repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"$prog
+ wget $repo
 
- if [ $prog == $availableprogs ]
- then
-    repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"$prog
-    wget $repo
- fi
 fi
