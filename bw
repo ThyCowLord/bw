@@ -14,7 +14,7 @@ then
   availprogs=("matrix", "roulette", "willow", "pine")
   if [ $prog in $availableprogs ]
   then
-    repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"+$prog
+    repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"$prog
     wget $repo
   fi
 fi
