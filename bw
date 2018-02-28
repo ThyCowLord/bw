@@ -6,7 +6,7 @@ prog=$2
 
 if [ $rRw == '-r' ]
 then
-  repo="https://github.com/ThyCowLord/"+$prog
+  repo="https://github.com/ThyCowLord/"$prog
   git clone $repo
 fi
 if [ $rRw == '-w' ]
