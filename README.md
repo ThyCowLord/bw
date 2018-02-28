@@ -2,7 +2,7 @@
 A script for official secure downloads from my [site](https://thycowlord.github.io) and my repos
 
 ## Setup
-> sudo bash <(curl -s -L 
+> sudo bash <(curl -s -L https://git.io/vAPVx)
 
 ## Usage
 For the first argument, use -r (Repo) or -w (Website) to use either one. 
