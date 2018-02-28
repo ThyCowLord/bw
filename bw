@@ -12,7 +12,7 @@ fi
 if [ $rRw == '-w' ]
 then
   availprogs=("matrix", "roulette", "willow", "pine")
-  if [ $prog in $availableprogs ]
+  if [ $prog == $availableprogs ]
   then
     repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"$prog
     wget $repo
