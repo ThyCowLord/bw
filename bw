@@ -1,0 +1,20 @@
+#!/bin/bash
+
+rRw=$1
+prog=$2
+
+
+if [ $rRw == '-r' ]
+do
+  repo="https://github.com/ThyCowLord/"+$prog
+  git clone $repo
+done
+if [ $rRw == '-w' ]
+do
+  availprogs=("matrix", "roulette", "willow", "pine")
+  if [ $prog in $availableprogs ]
+  do
+    repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"+$prog
+    wget $repo
+  done
+done
