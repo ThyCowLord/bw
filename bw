@@ -5,16 +5,16 @@ prog=$2
 
 
 if [ $rRw == '-r' ]
-do
+then
   repo="https://github.com/ThyCowLord/"+$prog
   git clone $repo
-done
+fi
 if [ $rRw == '-w' ]
-do
+then
   availprogs=("matrix", "roulette", "willow", "pine")
   if [ $prog in $availableprogs ]
-  do
+  then
     repo="https://raw.githubusercontent.com/ThyCowLord/ThyCowLord.github.io/master/code/"+$prog
     wget $repo
-  done
-done
+  fi
+fi
