@@ -2,6 +2,8 @@
 A script for official secure downloads from my [site](https://thycowlord.github.io) and my repos
 
 ## Setup
+Run:
+
 > sudo bash <(curl -s -L https://git.io/vAPVx)
 
 ## Usage
